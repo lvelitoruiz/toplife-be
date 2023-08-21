@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipo_depas",
+  "info": {
+    "singularName": "tipo-depa",
+    "pluralName": "tipo-depas",
+    "displayName": "Tipo Depa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "dorms": {
+      "type": "string",
+      "required": true
+    },
+    "techado": {
+      "type": "string",
+      "required": true
+    },
+    "libre": {
+      "type": "string",
+      "required": true
+    },
+    "ocupada": {
+      "type": "string",
+      "required": true
+    },
+    "mobile": {
+      "type": "text",
+      "required": true
+    },
+    "plane": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

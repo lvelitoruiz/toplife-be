@@ -1,0 +1,142 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "alt": {
+      "type": "text",
+      "required": true
+    },
+    "title2": {
+      "type": "string",
+      "required": true
+    },
+    "description2": {
+      "type": "richtext",
+      "required": true
+    },
+    "more": {
+      "type": "string",
+      "required": true
+    },
+    "valtext": {
+      "type": "string",
+      "required": true
+    },
+    "torreblancatext": {
+      "type": "string",
+      "required": true
+    },
+    "title3": {
+      "type": "string",
+      "required": true
+    },
+    "logoval": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logotorre": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description3": {
+      "type": "richtext",
+      "required": true
+    },
+    "description4": {
+      "type": "richtext",
+      "required": true
+    },
+    "title4": {
+      "type": "string",
+      "required": true
+    },
+    "description5": {
+      "type": "text",
+      "required": true
+    },
+    "title5": {
+      "type": "string",
+      "required": true
+    },
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "perks": {
+      "type": "json",
+      "required": true
+    },
+    "banner1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner3": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

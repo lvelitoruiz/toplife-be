@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ubications",
+  "info": {
+    "singularName": "ubication",
+    "pluralName": "ubications",
+    "displayName": "Ubication"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle1": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle2": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "description2": {
+      "type": "richtext",
+      "required": true
+    },
+    "button1": {
+      "type": "string",
+      "required": true
+    },
+    "button2": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cotizations",
+  "info": {
+    "singularName": "cotization",
+    "pluralName": "cotizations",
+    "displayName": "cotization"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "checkbox": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
